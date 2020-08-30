@@ -6,3 +6,8 @@ Suppose the real distribution is
 $$ N(0,1) $$
 
 The goal in this case is to have a generator that outpus values in $\mathbb{R}$ according to real data distribution, i.e., the majority of the generators output fall in a neighbourhood of 0.
+
+We implement 
+
+  - a VANNILA GAN with both the Generator and Discriminator as Neural Networks with one hidden layer.
+  - a Wasserstein GAN with both the Generator and Discriminator as Neural Networks with one hidden layer.
